@@ -1,12 +1,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Vision Hub V2",  -- Nome exibido na janela e introdução
+    Name = "Vision Hub V3",  -- Nome exibido na janela e introdução
     HidePremium = false,    -- Esconder funções premium (false para exibi-las)
     SaveConfig = true,      -- Salvar as configurações automaticamente
-    ConfigFolder = "Vision Hub V2",  -- Pasta onde as configurações serão salvas
+    ConfigFolder = "Vision Hub V3",  -- Pasta onde as configurações serão salvas
     IntroEnabled = true,    -- Ativar introdução ao abrir
-    IntroText = "Vision Hub V2", -- Texto exibido na introdução
+    IntroText = "Vision Hub V3", -- Texto exibido na introdução
     IntroIcon = "rbxassetid://127694712584422"  -- ID do ícone mostrado na introdução
 })
 
